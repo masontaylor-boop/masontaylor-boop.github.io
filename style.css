@@ -1,0 +1,692 @@
+First Website
+🎉🎉🎉 It's time to create your very own website! 🎉🎉🎉
+Table of Contents
+Overview
+Specs
+The Big 3
+Lesson Steps
+Work Flow
+TODO 0 : Preview Your Site
+TODO 1: Update index.html
+TODO 2: Create Sections for the Menu and Main Content
+TODO 3: Create Structure for Content
+TODO 4: Add Content
+TODO 5: Add More Content - Interests
+TODO 6: Add an Image
+TODO 7: Navigation and Site Title
+TODO 8: Make it Pretty
+TODO 9: Customize CSS
+TODO 10: Go Live
+Overview
+🎯 Goal: Build and publish your own website on the internet using GitHub Pages! In this project, you’ll:
+
+Learn how HTML, CSS, and JavaScript work together to create a webpage.
+Host your live website on GitHub Pages—a free service that lets you share your site with anyone online.
+Add personalized content, such as your interests and photos, to make the website your own.
+Specs
+These are the requirements for your website:
+
+You will use HTML to structure your page, CSS to style it, and JavaScript for interactivity.
+The site will feature a short profile about you, including your interests, an image, and other personalized content.
+It will be hosted on GitHub Pages and viewable on the internet.
+You can update your site anytime—it will remain live even after the project is complete!
+The Big 3: HTML, CSS, and JavaScript
+To build a webpage, you'll need to use three key tools:
+
+HTML – 🏗️ The structure
+HTML (Hypertext Markup Language) organizes your website into sections like headings, paragraphs, and images. Think of it as the foundation of your webpage.
+
+CSS – 🎨 The style
+CSS (Cascading Style Sheets) is all about how your site looks—colors, fonts, and layout. It lets you customize the appearance of your page to match your personal style.
+
+JavaScript – ⚙️ The interactivity
+JavaScript is a programming language that makes your website interactive. With JavaScript, you can build features like buttons that respond to clicks, animations, or a clock that updates in real time.
+
+🎯 How Do They Work Together?
+HTML: Lays out the content on your site (like a house frame).
+CSS: Adds paint, furniture, and decorations (makes the site look good).
+JavaScript: Automates and interacts with users (like turning on the lights or locking the doors).
+
+
+
+Lesson Steps
+Work Flow: How to Navigate Through the Lesson Steps
+🎯 Goal: Follow the steps in this lesson to build and customize your website one step at a time.
+
+Step-by-Step Work Flow
+📂 Open the index.html file in your codespace to get started.
+
+Look for TODO sections in the README:
+
+Each TODO has instructions for what you need to do next.
+These steps will tell you where to place new code inside the existing tags.
+Follow the instructions carefully for each TODO:
+
+Pay attention to where code should go (inside <head> or <body>).
+If a step asks you to add or remove code, only make those changes—don’t change anything else unless instructed.
+🖥️ Preview your site regularly using Live Server to see how your changes affect the website.
+
+Build gradually:
+
+Each TODO builds on the previous one, so complete them in order.
+Take your time to double-check your code before moving on to the next step.
+💡 Key Reminders
+- 📖 Read each step closely before adding any code.
+- 🎯 Only add code if a TODO step tells you to.
+- 🖥️ Preview frequently to make sure everything is working correctly.
+✅ Check Your Work!
+After each TODO, double-check your code to ensure it matches the examples.
+If you encounter issues, preview your site using Live Server to troubleshoot.
+
+
+
+
+
+TODO 0: Preview Your Site with Live Server
+🎯 Goal: Preview your site in the browser to see how it looks and behaves as you make changes.
+
+Step-by-Step Instructions
+There are two ways to open your project with Live Server:
+
+Option 1: Right-Click Method
+📂 Find the index.html file in the file tree on the left side of your codespace.
+Right-click on index.html and select “Open with Live Server.”
+Right-click 'Open with Live Server'
+Option 2: Go Live Button in the Bottom Panel
+Look at the bottom-right corner of your codespace.
+Click the “Go Live” button to launch Live Server.
+Go Live button in GitHub Codespaces
+💡 Why Use Live Server?
+Live Server allows you to instantly preview your website as you edit the code. It automatically refreshes the browser every time you update your code, so you can see changes right away without needing to reload manually.
+
+✅ Check Your Work!
+After launching Live Server, your browser should open a new tab with your site.
+At the beginning of this project, you will have a completely blank webpage. You will add content to your page as you work through the project.
+
+
+
+
+TODO 1: Add a Title in index.html
+🎯 Goal: Update the <title> element so your website has a unique and meaningful title. This title will appear in the browser tab when someone visits your site.
+
+Step-by-Step Instructions
+🔍 Find the file tree
+
+Look to the left side of your codespace and find the list of project files and folders.
+Open the index.html file
+
+📂 Inside the file tree, click on index.html to open it.
+🔍 Locate the <title> element inside the <head> element
+
+Update the text inside <title>
+
+Replace the text that says CHANGE ME with a creative name for your website.
+Your updated code should look like this:
+
+<head>
+  <title>My Awesome Website</title>
+</head>
+💡 Why Update the <title>?
+The <title> defines the name shown in the browser tab when someone visits your website. A good title helps visitors know what your site is about and makes your work look more polished.
+
+✅ Check Your Work!
+Preview your site using Live Server to see the new title in the browser tab.
+The title will appear in the tab at the very top of the browser.
+
+
+
+
+TODO 2: Create Sections for the Menu and Main Content
+🎯 Goal: Organize your webpage by adding two key sections — a navigation menu and a main content area. You’ll do this by placing <nav> and <main> elements inside the <div id="all-contents"> element.
+
+Step-by-Step Instructions
+🔍 Locate the <div id="all-contents"> element
+
+Inside index.html, find this part of the code:
+<!-- All content goes here -->
+<div id="all-contents">
+
+</div>
+Place the <nav> and <main> elements inside the <div id="all-contents"> element
+
+Your code should now look like this:
+
+<div id="all-contents">
+  <nav>
+
+  </nav>
+
+  <main>
+
+  </main>
+</div>
+💡 What’s the Purpose of <nav> and <main>?
+<nav>: Holds links to other parts of your website (like a menu).
+<main>: Contains the primary content visitors will see. Separating these sections helps organize your code and makes it easier to style with CSS.
+
+✅ Check Your Work!
+Make sure the <nav> and <main> elements are inside the <div id="all-contents"> element.
+
+
+
+
+TODO 3: Create Structure for Your Content
+🎯 Goal: Inside the <main> element, organize your page into two sections — a sidebar and a content area.
+
+Step-by-Step Instructions
+🔍 Find the <main> element inside index.html
+
+Look for this code snippet:
+<main>
+
+</main>
+Place two <div> elements inside the <main> element.
+
+Add a class="sidebar" attribute to the first opening <div> tag and a class="content" attribute to the second opening <div> tag
+
+Your updated code should look like this:
+
+<main>
+  <!-- Sidebar section -->
+  <div class="sidebar">
+
+  </div>
+
+  <!-- Content section -->
+  <div class="content">
+
+  </div>
+</main>
+💡 Why Use a Sidebar and Content Section?
+A sidebar is great for links, images, or secondary content. The content section holds the main information that your visitors will interact with. Separating these makes it easier to style each section individually.
+
+✅ Check Your Work!
+Ensure both <div> elements are inside the <main> element.
+
+
+
+
+TODO 4: Add Content
+🎯 Goal: Add your name and position to the content section inside the <div class="content"> element.
+
+Step-by-Step Instructions
+🔍 Find the <div class="content"> element
+
+Look for this part of the code:
+<div class="content">
+
+</div>
+Add an <h2> element inside the <div class="content"> element. The <h2> element should contain your name.
+
+Add a <p> element inside the <div class="content"> element under the <h2> element. The <p> element should contain your position or job title (like Student at Unicorn High or Editor Extraordinaire at DHS Yearbook).
+
+Your updated code should look like this:
+<div class="content">
+  <h2>Halle Bot</h2>
+  <p>Mascot at Operation Spark</p>
+</div>
+💡 Why Add Your Name and Position?
+This personal touch makes your website feel more professional and unique. It also gives visitors insight into who you are.
+
+✅ Check Your Work!
+Preview your site using Live Server.
+Verify that your basic page looks like the image below before moving on.
+
+Right-click 'Open with Live Server'
+
+
+
+
+TODO 5: Add More Content – Interests
+🎯 Goal: Add a list of your interests to personalize your site and practice using HTML lists.
+
+Step-by-Step Instructions
+🔍 Find the <div class="content"> element
+
+Look for this section in your code:
+<div class="content">
+
+</div>
+Create a new <div> for the Interests section
+
+Inside the <div class="content"> element, add a new <div> element with an id="interests" attribute:
+<div id="interests">
+
+</div>
+Add a heading inside the Interests div
+
+Inside the <div id="interests"> element, add an <h3> element with the text Interests:
+<h3>Interests</h3>
+Create an unordered list for your interests
+
+Below the <h3> tag, add a <ul> element:
+<ul>
+
+</ul>
+Add three list items for your interests
+
+Inside the <ul> element, add three <li> elements to list your interests.
+Inside each of the <li> elements, include one of your interests, such as Coding, Football, or Sleeping.
+After completing this TODO, your updated <div class="content"> element should look like this:
+
+<div class="content">
+  <h2>Halle Bot</h2>
+  <p>Mascot at Operation Spark</p>
+
+  <!-- Interests section -->
+  <div id="interests">
+    <h3>Interests</h3>
+    <ul>
+      <li>Coding</li>
+      <li>Running</li>
+      <li>Baking Cupcakes</li>
+    </ul>
+  </div>
+</div>
+💡 Why Use Lists?
+Lists help organize information neatly on your website. You’ll often use lists in web development for things like navigation menus, to-do lists, and item descriptions.
+
+✅ Check Your Work!
+Ensure the <div id="interests"> section is inside the <div class="content"> element.
+Preview your site using Live Server. You should see a list of interests below your name and title.
+
+
+🎯 You're halfway there! Keep it up!
+
+
+
+TODO 6: Add an Image
+🎯 Goal: Add a personal or meaningful image to the sidebar section.
+
+Step-by-Step Instructions
+🔍 Find the <div class="sidebar"> element
+
+Look for this part of the code inside the <main> element:
+<div class="sidebar">
+
+</div>
+Add an <img> tag inside the <div class="sidebar"> element
+
+Remember that <img> elements do not need closing tags!
+Add a class="sidebar-img" attribute and src="CHANGE_ME" attribute to your <img> element
+
+Your updated code should look like this:
+<div class="sidebar">
+  <img class="sidebar-img" src="CHANGE_ME">
+</div>
+Get a good image URL from Google
+
+Open Google Images and search for an image that fits your website.
+Right-click the image you want to use, then select "Copy image address."
+Copy Image Address from Google
+
+Paste the copied URL into the src attribute of the <img> tag.
+Example:
+<div class="sidebar">
+  <img class="sidebar-img" src="https://example.com/image.jpg">
+</div>
+💡 Why Add an Image?
+Images make your website more engaging. They also help practice using the <img> tag and working with attributes like src.
+
+✅ Check Your Work!
+Ensure the image is inside the <div class="sidebar"> element.
+Preview your site using Live Server. If the image doesn’t load, try checking the URL or replacing it with a different link.
+Check that your site looks like the image below before moving on.
+
+
+
+
+
+
+TODO 7: Add a Site Title and Navigation
+🎯 Goal: Give your site a title and create a navigation menu to help visitors move between pages.
+
+Step-by-Step Instructions
+🔍 Find the <nav> element inside index.html
+
+Look for the following section in your code:
+<nav>
+
+</nav>
+Add a title inside the <nav> element
+
+Place an <h1> element inside <nav>. Between the opening and closing <h1> tags, type the title of your website:
+<h1>Your Name's Amazing Website</h1>
+Create an unordered list for your navigation menu
+
+Below the <h1> element, add a <ul id="nav-ul"> element:
+<ul id="nav-ul">
+
+</ul>
+Add two list items for the menu
+
+Inside the <ul> element, add the following two <li> elements:
+
+One to link to your home page
+
+<li class="nav-li">
+  <a href="index.html">Home</a>
+</li>
+Another to link to your portfolio page
+
+<li class="nav-li">
+  <a href="portfolio.html">Portfolio</a>
+</li>
+After completing this TODO, your <nav> section should look like this:
+
+<nav>
+  <h1>Your Name's Amazing Website</h1>
+  <ul id="nav-ul">
+    <li class="nav-li">
+      <a href="index.html">Home</a>
+    </li>
+    <li class="nav-li">
+      <a href="portfolio.html">Portfolio</a>
+    </li>
+  </ul>
+</nav>
+💡 Why Add a Navigation Menu?
+A navigation menu makes it easy for visitors to move between different parts of your site. It’s also a great way to learn how to link pages together using anchor tags (<a>).
+
+✅ Check Your Work!
+Make sure the <h1> and <ul> elements are inside the <nav> element.
+Preview your site using Live Server to ensure your title and menu appear on the site.
+
+
+
+
+TODO 8: Make It Pretty with CSS
+🎯 Goal: Add a CSS stylesheet to style your website.
+
+Step-by-Step Instructions
+🔍 Find the <head> element inside index.html
+
+Add a <link> tag inside the <head> element
+
+Note that the link tag does not require a closing tag
+Add a rel="stylesheet" attribute and href="style.css" attribute inside the <link> tag
+
+Your code should now look like this:
+<head>
+  <title>Your Name's Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+Open the style.css file and add the following CSS rules:
+
+body {
+    background: rgb(125, 198, 205);
+    color: rgb(45, 45, 45);
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+#all-contents {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* navigation menu */
+nav {
+    background: rgb(239, 80, 41);
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    color: white;
+    flex: 1;
+    margin: 0;
+}
+
+#nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* main container area beneath menu */
+main {
+    background: rgb(245, 238, 219);
+    display: flex;
+    margin-top: 20px;
+}
+
+.sidebar {
+    margin-right: 25px;
+    padding: 10px;
+}
+
+.sidebar-img {
+    width: 200px;
+}
+
+.content {
+    flex: 1;
+    padding: 15px;
+}
+
+/* interests section styles */
+#interests {
+    border: 4px silver ridge;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+h2, h3 {
+    margin: 0px;
+}
+💡 Why add CSS to a website?
+Adding CSS makes your website look unique and reflects your personal style. It also helps you explore how small changes in CSS can dramatically alter the appearance of a page.
+✅ Check Your Work!
+Preview your site using Live Server to see your new styles in action.
+
+
+
+
+
+TODO 9: Customize CSS
+🎯 Goal: Add personal touches to your CSS to make the website uniquely yours.
+
+Step-by-Step Instructions
+🔍 Find the nav CSS selector inside style.css
+
+Look for this code snippet:
+nav {
+  background: rgb(239, 80, 41);
+  margin: 0 auto;
+  display: flex;
+  padding: 10px;
+}
+Add a margin-bottom: 20px property to create space below the menu
+
+Your updated CSS should look like this:
+nav {
+  background: rgb(239, 80, 41);
+  margin: 0 auto;
+  display: flex;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+Experiment with colors
+
+Update the colors throughout the CSS file to match your style. For example:
+
+body {
+  background: #2a2a2a;
+  color: #ddd;
+}
+
+nav {
+  background: #333;
+}
+
+a {
+  color: #ffa500;
+}
+💡 Why Customize CSS?
+Customizing CSS makes your website look unique and reflects your personal style. It also helps you explore how small changes in CSS can dramatically alter the appearance of a page.
+
+✅ Check Your Work!
+Preview your site using Live Server to see your new styles in action.
+
+
+
+
+TODO 10: Go Live
+🎯 Goal: Host your website online using GitHub Pages.
+
+Step-by-Step Instructions
+Open the terminal in your codespace
+
+If the terminal isn’t visible, click the Hamburger Menu > Terminal > New Terminal.
+Enter the following commands one by one in the terminal, pressing enter after each command to run it:
+
+git add .
+git commit -m "add index.html and css files"
+git push
+Wait a few minutes for the changes to go live at your-username.github.io.
+
+💡 What Is GitHub Pages?
+GitHub Pages allows you to publish websites directly from your GitHub repositories. It’s a great way to share your projects online without needing any special hosting services.
+✅ Check Your Work!
+Visit the site your-github-username.github.io to see your website live on the internet. If it doesn’t appear immediately, wait a few minutes and try refreshing your page.
+Make sure to replace the text "your-github-username" with your actual github username when entering the URL in your browser.
+
+
+Bonus: Upgrade with Tailwind CSS (Optional Enhancement)
+🎯 Goal: Replace your custom CSS with Tailwind CSS to create a more modern, responsive website with utility-first styling.
+
+Step-by-Step Instructions
+Comment out or remove the CSS link
+
+In your index.html file, find the <link> tag in the <head> section:
+
+<link rel="stylesheet" href="style.css" />
+Comment it out by wrapping it in <!-- -->:
+
+<!-- <link rel="stylesheet" href="style.css" /> -->
+Add the Tailwind CSS CDN
+
+In the <head> section, add the Tailwind CSS script tag:
+<head>
+  <title>Your Name's Website</title>
+  <!-- <link rel="stylesheet" href="style.css" /> -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+Update your body classes
+
+Replace your <body> tag with Tailwind utility classes:
+<body class="bg-blue-50 text-gray-800 p-4 font-sans">
+Update the main container
+
+Update your <div id="all-contents"> to use Tailwind classes:
+<div id="all-contents" class="max-w-4xl mx-auto">
+Modernize your navigation
+
+Replace your <nav> section with this Tailwind-styled version:
+<nav class="bg-blue-500 p-4 rounded-lg mb-4 shadow-md">
+  <div class="flex justify-between items-center">
+    <h1 class="text-white text-2xl font-bold">Your Name's Amazing Website</h1>
+    <ul class="flex space-x-4">
+      <li>
+        <a href="index.html" class="text-white hover:text-blue-200 px-3 py-2 rounded">Home</a>
+      </li>
+      <li>
+        <a href="portfolio.html" class="text-white hover:text-blue-200 px-3 py-2 rounded">Portfolio</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+Update your main content area
+
+Replace your <main> section with this responsive layout:
+<main class="bg-white rounded-lg shadow-lg p-6">
+  <div class="flex flex-col md:flex-row gap-6">
+    <!-- Sidebar with image -->
+    <div class="md:w-1/3">
+      <img
+        class="w-full max-w-xs rounded-lg shadow-md mx-auto"
+        src="YOUR_IMAGE_URL_HERE"
+        alt="Profile picture"
+      />
+    </div>
+
+    <!-- Content section -->
+    <div class="md:w-2/3">
+      <h2 class="text-3xl font-bold text-gray-900 mb-2">Your Name</h2>
+      <p class="text-lg text-gray-600 mb-6">Your Position</p>
+
+      <!-- Interests section -->
+      <div class="border-2 border-gray-300 rounded-lg p-4">
+        <h3 class="text-xl font-semibold mb-3 text-gray-800">My Interests</h3>
+        <ul class="space-y-2">
+          <li class="bg-blue-100 px-3 py-2 rounded text-blue-800">Interest 1</li>
+          <li class="bg-pink-100 px-3 py-2 rounded text-pink-800">Interest 2</li>
+          <li class="bg-green-100 px-3 py-2 rounded text-green-800">Interest 3</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</main>
+💡 Why Use Tailwind CSS?
+Tailwind CSS makes styling websites faster and easier. Instead of writing custom CSS, you use simple classes like bg-blue-500 for blue backgrounds. It automatically works on phones, tablets, and computers too!
+✅ Check Your Work!
+Preview your site to see your modern Tailwind-styled website.
+Your site should now look cleaner with rounded corners and shadows.
+🎨 Want to Add More Cool Stuff?
+Now you can easily add professional components to your website! Here are free resources:
+
+1. Tailwind UI Components (Free)
+Website: https://tailwindui.com/components
+What it offers: Ready-to-use buttons, cards, and menus
+No signup needed for free components
+2. Tailwind CSS Documentation
+Website: https://tailwindcss.com/docs
+What it offers: Official examples for every style
+Great for learning how classes work
+3. Free Component Libraries
+HyperUI: https://www.hyperui.dev/
+Tailblocks: https://tailblocks.cc/
+These sites have free components like hero sections, cards, forms, and photo galleries. Just copy the code and paste it into your website!
+
+🚀 Quick Tip
+Start simple! Get your basic layout working first, then add one cool component at a time. This way you can see what each piece does.
+Quick Example: Add a Photo Gallery
+Want to try something cool? Here's how to add a photo gallery that automatically adjusts to different screen sizes:
+
+<!-- Add this in your content section -->
+<div class="mt-8">
+  <h3 class="text-2xl font-bold mb-4">My Photo Gallery</h3>
+  <div class="flex flex-wrap gap-4">
+    <img src="https://picsum.photos/200/200?random=1" alt="Photo 1" class="w-32 h-32 object-cover rounded-lg shadow-md">
+    <img src="https://picsum.photos/200/200?random=2" alt="Photo 2" class="w-32 h-32 object-cover rounded-lg shadow-md">
+    <img src="https://picsum.photos/200/200?random=3" alt="Photo 3" class="w-32 h-32 object-cover rounded-lg shadow-md">
+    <img src="https://picsum.photos/200/200?random=4" alt="Photo 4" class="w-32 h-32 object-cover rounded-lg shadow-md">
+    <img src="https://picsum.photos/200/200?random=5" alt="Photo 5" class="w-32 h-32 object-cover rounded-lg shadow-md">
+    <img src="https://picsum.photos/200/200?random=6" alt="Photo 6" class="w-32 h-32 object-cover rounded-lg shadow-md">
+  </div>
+</div>
+This uses flexbox (flex flex-wrap) to automatically arrange photos in rows. The photos wrap to new lines when there's no space, making it work perfectly on phones and computers!
+
+✅ What to Do Next
+Get Tailwind working first (follow steps above)
+Try the photo gallery to see flexbox in action
+Replace the example photos with your own image URLs
+Browse the free sites for more components you like
+Copy and paste components one at a time
+🎉🎉🎉 Congratulations! You are LIVE ON THE INTERNET! 🎉🎉🎉
+🚀 Bonus: You've also learned how to use Tailwind CSS to make your website even more amazing!
